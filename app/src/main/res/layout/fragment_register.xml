@@ -81,8 +81,7 @@
                             android:id="@+id/iv_new_image"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/ic_user"
-                            app:tint="@color/main"/>
+                            android:src="@drawable/ic_user"/>
 
                     </com.google.android.material.card.MaterialCardView>
 
@@ -273,7 +272,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="?android:textColorTertiaryInverse"
+        android:drawable="?android:textColorTertiaryInverse"
         android:orientation="vertical"
         android:paddingStart="30dp"
         android:paddingTop="15dp"
